@@ -1,0 +1,1661 @@
+
+<html>
+<head>
+<title>nba data</title>
+<style>
+*{
+padding:0;
+margin:0;
+}
+header{
+position:fixed;
+top:0;
+left:0;
+right:0;
+background-color: rgba(22,34,57,0.95);
+box-shadow:0 5px 10px rgba(0,0,0,l.1);
+padding:4px 5%;
+display:flex;
+align-items:center;
+height:53px;
+justify-content:space-between;
+}
+.logo{
+font-weight:bolder;
+font-size:30px;
+color:#333;
+margin-left:10px;
+cursor:pointer;
+color:white;
+
+}
+header .navbar ul {
+position:relative;
+float:left;
+
+}
+header .navbar ul  a{
+font-size:20px;
+padding:20px;
+color:#333;
+display:inline-block;
+text-decoration:none;
+color:white;
+}
+header .navbar ul  a:hover{
+background:#333;color:#fff;
+}
+table.auto{
+  border: 1px solid black;
+  background-color: #ffff;
+  width: 100%;
+  text-align: left;
+  margin-top:60px;
+    border-collapse: collapse;
+}
+table.auto td, table.auto th {
+  border:  1.5px solid black;
+  padding: 3px 2px;
+  text-align:center;
+}
+table.auto tbody td {
+  font-size: 15px;
+}
+table.auto tr:nth-child(even) {
+  background: #CED5D5;
+}
+table.auto #header {
+  background: orange;
+  border-bottom: 0px solid #CDCDCD;
+    cursor:pointer;
+}
+table.auto #header td {
+  font-size:20px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 1px solid #D0E4F5;
+  text-align:center;
+}
+table.auto thead th:first-child {
+  border-left: none;
+}
+</style>
+</head>
+<body>
+<header>
+<h1 class="logo">way2predict</h1>
+<nav class="navbar">
+<ul>
+<a href="polycet1.html">Home</a>
+</ul>
+</header>
+<table class="auto">
+    <tr id="header" height="40px">
+        <td width="30px">Sno</td>
+        <td>Institute Name</td>
+        <td width="120px">State</td>
+        <td width="80px">District</td>
+        <td width="150px">Type</td>
+        <td>Affiliating University</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>CHALAPATHI INSTITUTE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Acharya Nagarjuna University, Guntur</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>CHALAPATHI INSTITUTE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Acharya Nagarjuna University, Guntur</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>CHALAPATHI INSTITUTE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Acharya Nagarjuna University, Guntur</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>CHALAPATHI INSTITUTE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Acharya Nagarjuna University, Guntur</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>MAHARAJAH S COLLEGE OF PHARMACY</td>
+        <td>Andhra Pradesh</td>
+        <td>VIZIANAGARAM</td>
+        <td>Private-Self Financing</td>
+        <td>Andhra University, Visakhapatnam</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>ANNAMACHARYA COLLEGE OF PHARMACY</td>
+        <td>Andhra Pradesh</td>
+        <td>YSR DISTRICT</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>ANDHRA UNIVERSITY COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>VISHAKHAPATNAM</td>
+        <td>Government</td>
+        <td>Andhra University, Visakhapatnam</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>ANDHRA UNIVERSITY COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>VISHAKHAPATNAM</td>
+        <td>Government</td>
+        <td>Andhra University, Visakhapatnam</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>ANDHRA UNIVERSITY COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>VISHAKHAPATNAM</td>
+        <td>Government</td>
+        <td>Andhra University, Visakhapatnam</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>ANDHRA UNIVERSITY COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>VISHAKHAPATNAM</td>
+        <td>Government</td>
+        <td>Andhra University, Visakhapatnam</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>ADITYA INSTITUTE OF TECHNOLOGY AND MANAGEMENT</td>
+        <td>Andhra Pradesh</td>
+        <td>SRIKAKULAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>ADITYA INSTITUTE OF TECHNOLOGY AND MANAGEMENT</td>
+        <td>Andhra Pradesh</td>
+        <td>SRIKAKULAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>KALLAM HARANADHAREDDY INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>KALLAM HARANADHAREDDY INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>KALLAM HARANADHAREDDY INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>KALLAM HARANADHAREDDY INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>DVR DR HS MIC COLLEGE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>DVR DR HS MIC COLLEGE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>DVR DR HS MIC COLLEGE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>YSR DISTRICT</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>YSR DISTRICT</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>YSR DISTRICT</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>23</td>
+        <td>CHAITANYA BHARATHI INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>YSR DISTRICT</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>24</td>
+        <td>RAMACHANDRA COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>25</td>
+        <td>RAMACHANDRA COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>26</td>
+        <td>RAMACHANDRA COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>27</td>
+        <td>GMR INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>SRIKAKULAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>28</td>
+        <td>GMR INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>SRIKAKULAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>29</td>
+        <td>GMR INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>SRIKAKULAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>30</td>
+        <td>GMR INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>SRIKAKULAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>GMR INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>SRIKAKULAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>32</td>
+        <td>GMR INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>SRIKAKULAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>33</td>
+        <td>SAGI RAMAKRISHNAM RAJU ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>34</td>
+        <td>SAGI RAMAKRISHNAM RAJU ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>35</td>
+        <td>SAGI RAMAKRISHNAM RAJU ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>36</td>
+        <td>SAGI RAMAKRISHNAM RAJU ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>37</td>
+        <td>SAGI RAMAKRISHNAM RAJU ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>38</td>
+        <td>SAGI RAMAKRISHNAM RAJU ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>39</td>
+        <td>QIS COLLEGE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>PRAKASAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>40</td>
+        <td>QIS COLLEGE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>PRAKASAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>41</td>
+        <td>QIS COLLEGE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>PRAKASAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>42</td>
+        <td>QIS COLLEGE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>PRAKASAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>43</td>
+        <td>GAYATRI VIDYA PARISHAD COLLEGE FOR DEGREE AND PG COURSES</td>
+        <td>Andhra Pradesh</td>
+        <td>VISHAKHAPATNAM</td>
+        <td>Private-Self Financing</td>
+        <td>Andhra University, Visakhapatnam</td>
+    </tr>
+    <tr>
+        <td>44</td>
+        <td>GAYATRI VIDYA PARISHAD COLLEGE FOR DEGREE AND PG COURSES</td>
+        <td>Andhra Pradesh</td>
+        <td>VISHAKHAPATNAM</td>
+        <td>Private-Self Financing</td>
+        <td>Andhra University, Visakhapatnam</td>
+    </tr>
+    <tr>
+        <td>45</td>
+        <td>GAYATRI VIDYA PARISHAD COLLEGE FOR DEGREE AND PG COURSES</td>
+        <td>Andhra Pradesh</td>
+        <td>VISHAKHAPATNAM</td>
+        <td>Private-Self Financing</td>
+        <td>Andhra University, Visakhapatnam</td>
+    </tr>
+    <tr>
+        <td>46</td>
+        <td>GAYATRI VIDYA PARISHAD COLLEGE FOR DEGREE AND PG COURSES</td>
+        <td>Andhra Pradesh</td>
+        <td>VISHAKHAPATNAM</td>
+        <td>Private-Self Financing</td>
+        <td>Andhra University, Visakhapatnam</td>
+    </tr>
+    <tr>
+        <td>47</td>
+        <td>GAYATRI VIDYA PARISHAD COLLEGE FOR DEGREE AND PG COURSES</td>
+        <td>Andhra Pradesh</td>
+        <td>VISHAKHAPATNAM</td>
+        <td>Private-Self Financing</td>
+        <td>Andhra University, Visakhapatnam</td>
+    </tr>
+    <tr>
+        <td>48</td>
+        <td>ST ANN S COLLEGE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>PRAKASAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>49</td>
+        <td>ST ANN S COLLEGE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>PRAKASAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>50</td>
+        <td>SIDDHARTH INSTITUTE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>51</td>
+        <td>SIDDHARTH INSTITUTE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>52</td>
+        <td>SIDDHARTH INSTITUTE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>53</td>
+        <td>SIDDHARTH INSTITUTE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>54</td>
+        <td>SIDDHARTH INSTITUTE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>55</td>
+        <td>VISHNU INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>56</td>
+        <td>VISHNU INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>57</td>
+        <td>VISHNU INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>58</td>
+        <td>VISHNU INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>59</td>
+        <td>PACE INSTITUTE OF TECHNOLOGY AND SCIENCES</td>
+        <td>Andhra Pradesh</td>
+        <td>PRAKASAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>60</td>
+        <td>PACE INSTITUTE OF TECHNOLOGY AND SCIENCES</td>
+        <td>Andhra Pradesh</td>
+        <td>PRAKASAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>61</td>
+        <td>PACE INSTITUTE OF TECHNOLOGY AND SCIENCES</td>
+        <td>Andhra Pradesh</td>
+        <td>PRAKASAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>62</td>
+        <td>CHALAPATHI INSTITUTE OF PHARMACEUTICAL SCIENCES</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Acharya Nagarjuna University, Guntur</td>
+    </tr>
+    <tr>
+        <td>63</td>
+        <td>SHRI VISHNU COLLEGE OF PHARMACY</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Andhra University, Visakhapatnam</td>
+    </tr>
+    <tr>
+        <td>64</td>
+        <td>VASIREDDY VENKATADRI INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>65</td>
+        <td>VASIREDDY VENKATADRI INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>66</td>
+        <td>VASIREDDY VENKATADRI INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>67</td>
+        <td>N B K R INSTITUTE OF SCIENCE TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>NELLORE</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>68</td>
+        <td>N B K R INSTITUTE OF SCIENCE TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>NELLORE</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>69</td>
+        <td>N B K R INSTITUTE OF SCIENCE TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>NELLORE</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>70</td>
+        <td>N B K R INSTITUTE OF SCIENCE TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>NELLORE</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>71</td>
+        <td>N B K R INSTITUTE OF SCIENCE TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>NELLORE</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>72</td>
+        <td>GAYATRI VIDYA PARISHAD COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>VISHAKHAPATNAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>73</td>
+        <td>GAYATRI VIDYA PARISHAD COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>VISHAKHAPATNAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>74</td>
+        <td>GAYATRI VIDYA PARISHAD COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>VISHAKHAPATNAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>75</td>
+        <td>SRI VENKATESWARA COLLEGE OF PHARMACY</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>76</td>
+        <td>SEVEN HILLS COLLEGE OF PHARMACY</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>77</td>
+        <td>VELAGAPUDI RAMAKRISHNA SIDDHARTHA ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>78</td>
+        <td>VELAGAPUDI RAMAKRISHNA SIDDHARTHA ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>79</td>
+        <td>VELAGAPUDI RAMAKRISHNA SIDDHARTHA ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>80</td>
+        <td>VELAGAPUDI RAMAKRISHNA SIDDHARTHA ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>81</td>
+        <td>VELAGAPUDI RAMAKRISHNA SIDDHARTHA ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>82</td>
+        <td>VELAGAPUDI RAMAKRISHNA SIDDHARTHA ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>83</td>
+        <td>SASI INSTITUTE OF TECHNOLOGY ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>84</td>
+        <td>SASI INSTITUTE OF TECHNOLOGY ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>85</td>
+        <td>SASI INSTITUTE OF TECHNOLOGY ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>86</td>
+        <td>G PULLAIAH COLLEGE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KURNOOL</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>87</td>
+        <td>G PULLAIAH COLLEGE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KURNOOL</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>88</td>
+        <td>G PULLAIAH COLLEGE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KURNOOL</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>89</td>
+        <td>PRASAD V POTLURI SIDDHARTHA INSTITUE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>90</td>
+        <td>PRASAD V POTLURI SIDDHARTHA INSTITUE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>91</td>
+        <td>PRASAD V POTLURI SIDDHARTHA INSTITUE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>92</td>
+        <td>PRASAD V POTLURI SIDDHARTHA INSTITUE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>93</td>
+        <td>PRASAD V POTLURI SIDDHARTHA INSTITUE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>94</td>
+        <td>PRASAD V POTLURI SIDDHARTHA INSTITUE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>95</td>
+        <td>SESHADRI RAO GUDLAVALLERU ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>96</td>
+        <td>SESHADRI RAO GUDLAVALLERU ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>97</td>
+        <td>SESHADRI RAO GUDLAVALLERU ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>98</td>
+        <td>SESHADRI RAO GUDLAVALLERU ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>99</td>
+        <td>LAKIREDDY BALI REDDY COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>100</td>
+        <td>LAKIREDDY BALI REDDY COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>LAKIREDDY BALI REDDY COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>LAKIREDDY BALI REDDY COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>103</td>
+        <td>LAKIREDDY BALI REDDY COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>104</td>
+        <td>KUPPAM ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>105</td>
+        <td>RISE KRISHNA SAI PRAKASAM GROUP OF INSTITUTIONS</td>
+        <td>Andhra Pradesh</td>
+        <td>PRAKASAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>106</td>
+        <td>RISE KRISHNA SAI PRAKASAM GROUP OF INSTITUTIONS</td>
+        <td>Andhra Pradesh</td>
+        <td>PRAKASAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>107</td>
+        <td>RISE KRISHNA SAI PRAKASAM GROUP OF INSTITUTIONS</td>
+        <td>Andhra Pradesh</td>
+        <td>PRAKASAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>108</td>
+        <td>RISE KRISHNA SAI PRAKASAM GROUP OF INSTITUTIONS</td>
+        <td>Andhra Pradesh</td>
+        <td>PRAKASAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>109</td>
+        <td>GAYATRI VIDYA PARISHAD COLLEGE OF ENGINEERING FOR WOMEN</td>
+        <td>Andhra Pradesh</td>
+        <td>VISHAKHAPATNAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>110</td>
+        <td>GAYATRI VIDYA PARISHAD COLLEGE OF ENGINEERING FOR WOMEN</td>
+        <td>Andhra Pradesh</td>
+        <td>VISHAKHAPATNAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>111</td>
+        <td>GAYATRI VIDYA PARISHAD COLLEGE OF ENGINEERING FOR WOMEN</td>
+        <td>Andhra Pradesh</td>
+        <td>VISHAKHAPATNAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>112</td>
+        <td>SHRI VISHNU ENGINEERING COLLEGE FOR WOMEN</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>113</td>
+        <td>SHRI VISHNU ENGINEERING COLLEGE FOR WOMEN</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>114</td>
+        <td>SHRI VISHNU ENGINEERING COLLEGE FOR WOMEN</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>115</td>
+        <td>SHRI VISHNU ENGINEERING COLLEGE FOR WOMEN</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>116</td>
+        <td>G PULLA REDDY ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>KURNOOL</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>117</td>
+        <td>G PULLA REDDY ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>KURNOOL</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>118</td>
+        <td>MADANAPALLE INSTITUTE OF TECHNOLOGY SCIENCE</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>119</td>
+        <td>MADANAPALLE INSTITUTE OF TECHNOLOGY SCIENCE</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>120</td>
+        <td>MADANAPALLE INSTITUTE OF TECHNOLOGY SCIENCE</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>121</td>
+        <td>MADANAPALLE INSTITUTE OF TECHNOLOGY SCIENCE</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>122</td>
+        <td>MADANAPALLE INSTITUTE OF TECHNOLOGY SCIENCE</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>123</td>
+        <td>MADANAPALLE INSTITUTE OF TECHNOLOGY SCIENCE</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>124</td>
+        <td>MADANAPALLE INSTITUTE OF TECHNOLOGY SCIENCE</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>125</td>
+        <td>SREENIVASA INSTITUTE OF TECHNOLOGY AND MANAGEMENT STUDIES</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>126</td>
+        <td>SREENIVASA INSTITUTE OF TECHNOLOGY AND MANAGEMENT STUDIES</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>127</td>
+        <td>SREENIVASA INSTITUTE OF TECHNOLOGY AND MANAGEMENT STUDIES</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>128</td>
+        <td>SREENIVASA INSTITUTE OF TECHNOLOGY AND MANAGEMENT STUDIES</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>129</td>
+        <td>SRI VASAVI INSTITUTE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>130</td>
+        <td>SRI VASAVI INSTITUTE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>131</td>
+        <td>SRI VASAVI INSTITUTE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>132</td>
+        <td>NRI INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>133</td>
+        <td>NRI INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>134</td>
+        <td>NRI INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>135</td>
+        <td>JNTUA COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>ANANTAPUR</td>
+        <td>Government</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>136</td>
+        <td>JNTUA COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>ANANTAPUR</td>
+        <td>Government</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>137</td>
+        <td>SRI VENKATESWARA COLLEGE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>138</td>
+        <td>SRI VENKATESWARA COLLEGE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>139</td>
+        <td>SRI VENKATESWARA COLLEGE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>140</td>
+        <td>SRI VENKATESWARA COLLEGE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>141</td>
+        <td>SRI VENKATESWARA COLLEGE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>142</td>
+        <td>MAHARAJ VIJAYARAM GAJAPATHI RAJ COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>VIZIANAGARAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>143</td>
+        <td>MAHARAJ VIJAYARAM GAJAPATHI RAJ COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>VIZIANAGARAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>144</td>
+        <td>MAHARAJ VIJAYARAM GAJAPATHI RAJ COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>VIZIANAGARAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>145</td>
+        <td>MAHARAJ VIJAYARAM GAJAPATHI RAJ COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>VIZIANAGARAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>146</td>
+        <td>MAHARAJ VIJAYARAM GAJAPATHI RAJ COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>VIZIANAGARAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>147</td>
+        <td>MAHARAJ VIJAYARAM GAJAPATHI RAJ COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>VIZIANAGARAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>148</td>
+        <td>KKR KSR INSTITUTE OF TECHNOLOGY AND SCIENCES</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>149</td>
+        <td>KKR KSR INSTITUTE OF TECHNOLOGY AND SCIENCES</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>150</td>
+        <td>KKR KSR INSTITUTE OF TECHNOLOGY AND SCIENCES</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>151</td>
+        <td>KKR KSR INSTITUTE OF TECHNOLOGY AND SCIENCES</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>152</td>
+        <td>KKR KSR INSTITUTE OF TECHNOLOGY AND SCIENCES</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>153</td>
+        <td>SRI VASAVI ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>154</td>
+        <td>SRI VASAVI ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>155</td>
+        <td>SRI VASAVI ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>156</td>
+        <td>SRI VASAVI ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>WEST GODAVARI</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>157</td>
+        <td>SREE VIDYANIKETHAN ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>158</td>
+        <td>SREE VIDYANIKETHAN ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>159</td>
+        <td>SREE VIDYANIKETHAN ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>160</td>
+        <td>SREE VIDYANIKETHAN ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>161</td>
+        <td>SREE VIDYANIKETHAN ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>162</td>
+        <td>SREE VIDYANIKETHAN ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>163</td>
+        <td>SREE VIDYANIKETHAN ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>164</td>
+        <td>VIGNANS FOUNDATION FOR SCIENCE TECHNOLOGY AND RESEARCH</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Deemed to be University(Pvt)</td>
+        <td>Vignans Foundation for Science, Guntur</td>
+    </tr>
+    <tr>
+        <td>165</td>
+        <td>VIGNANS FOUNDATION FOR SCIENCE TECHNOLOGY AND RESEARCH</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Deemed to be University(Pvt)</td>
+        <td>Vignans Foundation for Science, Guntur</td>
+    </tr>
+    <tr>
+        <td>166</td>
+        <td>VIGNANS FOUNDATION FOR SCIENCE TECHNOLOGY AND RESEARCH</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Deemed to be University(Pvt)</td>
+        <td>Vignans Foundation for Science, Guntur</td>
+    </tr>
+    <tr>
+        <td>167</td>
+        <td>VIGNANS FOUNDATION FOR SCIENCE TECHNOLOGY AND RESEARCH</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Deemed to be University(Pvt)</td>
+        <td>Vignans Foundation for Science, Guntur</td>
+    </tr>
+    <tr>
+        <td>168</td>
+        <td>VIGNANS FOUNDATION FOR SCIENCE TECHNOLOGY AND RESEARCH</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Deemed to be University(Pvt)</td>
+        <td>Vignans Foundation for Science, Guntur</td>
+    </tr>
+    <tr>
+        <td>169</td>
+        <td>SRI VENKATESWARA COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>170</td>
+        <td>SRI VENKATESWARA COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>171</td>
+        <td>SRI VENKATESWARA COLLEGE OF ENGINEERING</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>172</td>
+        <td>LENDI INSTITUTE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>VIZIANAGARAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>173</td>
+        <td>LENDI INSTITUTE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>VIZIANAGARAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>174</td>
+        <td>LENDI INSTITUTE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>VIZIANAGARAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>175</td>
+        <td>LENDI INSTITUTE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>VIZIANAGARAM</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>176</td>
+        <td>SRINIVASA RAMANUJAN INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>ANANTAPUR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>177</td>
+        <td>SRINIVASA RAMANUJAN INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>ANANTAPUR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>178</td>
+        <td>SRINIVASA RAMANUJAN INSTITUTE OF TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>ANANTAPUR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>179</td>
+        <td>TIRUMALA ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>GUNTUR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>180</td>
+        <td>SIDDARTHA INSTITUTE OF SCIENCE AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>181</td>
+        <td>SIDDARTHA INSTITUTE OF SCIENCE AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>182</td>
+        <td>SIDDARTHA INSTITUTE OF SCIENCE AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>183</td>
+        <td>SIDDARTHA INSTITUTE OF SCIENCE AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>184</td>
+        <td>SANKETIKA VIDYA PARISHAD ENGINEERING COLLEGE</td>
+        <td>Andhra Pradesh</td>
+        <td>VISHAKHAPATNAM</td>
+        <td>Private-Self Financing</td>
+        <td>Andhra University, Visakhapatnam</td>
+    </tr>
+    <tr>
+        <td>185</td>
+        <td>ANNAMACHARYA INSTITUTE OF TECHNOLOGY AND SCIENCES</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>186</td>
+        <td>ANNAMACHARYA INSTITUTE OF TECHNOLOGY AND SCIENCES</td>
+        <td>Andhra Pradesh</td>
+        <td>CHITTOOR</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Anantapur</td>
+    </tr>
+    <tr>
+        <td>187</td>
+        <td>POTTI SRIRAMULU CHALAVADI MALLIKARJUNA RAO COLLEGE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>188</td>
+        <td>POTTI SRIRAMULU CHALAVADI MALLIKARJUNA RAO COLLEGE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>189</td>
+        <td>POTTI SRIRAMULU CHALAVADI MALLIKARJUNA RAO COLLEGE OF ENGINEERING AND TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>190</td>
+        <td>GOVERNMENT POLYTECHNIC</td>
+        <td>Andhra Pradesh</td>
+        <td>ANANTAPUR</td>
+        <td>Government</td>
+        <td>State Board of Technical Education and Training, Hyderabad</td>
+    </tr>
+    <tr>
+        <td>191</td>
+        <td>GOVERNMENT POLYTECHNIC</td>
+        <td>Andhra Pradesh</td>
+        <td>ANANTAPUR</td>
+        <td>Government</td>
+        <td>State Board of Technical Education and Training, Hyderabad</td>
+    </tr>
+    <tr>
+        <td>192</td>
+        <td>DHANEKULA INSTITUTE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>193</td>
+        <td>DHANEKULA INSTITUTE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>194</td>
+        <td>DHANEKULA INSTITUTE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+    <tr>
+        <td>195</td>
+        <td>DHANEKULA INSTITUTE OF ENGINEERING TECHNOLOGY</td>
+        <td>Andhra Pradesh</td>
+        <td>KRISHNA</td>
+        <td>Private-Self Financing</td>
+        <td>Jawaharlal Nehru Technological University, Kakinada</td>
+    </tr>
+</table>

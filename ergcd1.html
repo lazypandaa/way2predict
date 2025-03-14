@@ -1,0 +1,473 @@
+
+<!DOCTYTPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"  content="width="device-width,initioal-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+*{
+margin:0;padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica, sans-serif;
+text-transform:capitalize;
+text-decoration:none;
+}
+body{
+min-height:auto;
+background:url("https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+background-size:cover;
+background-position:center";
+}
+
+/* Buttons */
+
+.main-button a {
+    background-color: #f5a425;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    padding: 12px 20px;
+    display: inline-block;
+    outline: none;
+}
+
+a.menu-link { display: none; }
+
+@media screen and (max-width: 950px) {
+  a.menu-link {
+    float: right;
+    display: block;
+    font-size: 36px;
+    color: #fff;
+    padding-right: 30px;
+    padding-top: 15px;
+  }
+  nav[role="navigation"] {
+    clear: both;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .js nav[role="navigation"] {
+    overflow: hidden;
+    max-height: 0;
+  }
+  nav[role="navigation"].active {
+    max-height: 20em;
+    height: 20em;
+    overflow-y: scroll;
+  }
+  nav[role="navigation"] ul {
+    top: 0;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgba(250,250,250,0.25);
+    background-color: rgba(22,34,57,0.99);
+  }
+  nav[role="navigation"] li a {
+    display: block;
+    padding: 15px 0px;
+    border-bottom: 1px solid rgba(250,250,250,0.25);
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+  nav[role="navigation"] li:hover a,
+  nav[role="navigation"] li.active a {
+      color: #f5a425;
+  }
+  
+  @media screen and (min-width: 951px) {
+    .js nav[role="navigation"] {
+      max-height: none;
+    }
+
+    nav[role="navigation"] li {
+      display: inline-block;
+      margin: 0 0.25em;
+    }
+    nav[role="navigation"] li a {
+      border: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .main-header .logo {
+      padding-left: 30px!important;
+  }
+
+  .main-menu {
+      padding-right: 30px!important;
+  }
+
+  .main-menu li {
+      margin-left: 5px!important;
+  }
+}
+
+.main-header {
+    background-color: rgba(22,34,57,0.95);
+    height: 80px;
+    position: fixed;
+    z-index: 12;
+    width: 100%;
+    top: 0;
+}
+
+.main-header .logo {
+    float: left;
+    line-height: 80px;
+    padding-left: 60px;
+}
+
+.main-header .logo a {
+    font-size: 36px;
+    font-weight: 800;
+    color: #fff;
+}
+.main-header .logo a em {
+    font-style: normal;
+    color: #ff7200;
+}
+
+.main-menu {
+    float: right;
+    padding-right: 60px;
+}
+
+.main-menu li {
+    display: inline-block;
+    line-height: 79px;
+    margin-left: 15px;
+    position: relative;
+}
+
+.main-menu li:first-child {
+    margin-left: 0px;
+}
+
+.main-menu li a {
+    padding: 10px 15px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    color: #fff;
+    border: 2px solid transparent;
+    transition: all 0.5s;
+}
+
+.main-menu li.has-submenu a:after {
+    content: '\f107';
+    font-family: "FontAwesome";
+    margin-left: 5px;
+}
+
+.main-menu li.has-submenu ul li a:after {
+    display: none;
+}
+
+.main-menu li .sub-menu {
+    position: absolute;
+    width: 160px;
+    background-color: #18233a;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+}
+
+.main-menu li:hover .sub-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.main-menu li .sub-menu li {
+    display: block;
+    line-height: 20px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #121b2f;
+	text-align:left;
+}
+
+.main-menu li .sub-menu li:first-child {
+    padding-top: 15px;
+}
+
+.main-menu li .sub-menu li:last-child {
+    margin-bottom: 0px;
+    border-bottom: none;
+}
+
+.main-menu li .sub-menu li a {
+    font-size: 10px;
+    font-weight: 500;
+    padding: 0px 15px;
+    letter-spacing: 0px;
+    border: none;
+    transition: all 0.5s;
+}
+
+.main-menu li .sub-menu li a:hover {
+    color: #f5a425;
+    border: none;
+}
+
+.main-nav li:hover a,
+.main-nav li.active a {
+    border: 2px solid #f5a425;
+}
+
+@media (max-width: 950px) {
+  .main-nav li:hover a,
+  .main-nav li.active a {
+    border: 2px solid transparent;
+    border-bottom: 1px solid rgba(250,250,250,0.25);
+  }
+}
+
+
+.content{
+	justify-content:left;
+    margin-left:10%;
+    width:auto;
+    height: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    margin-right:50%;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+	margin-top:30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 10%;
+    letter-spacing: 2px;
+}
+
+
+
+.content span{
+    color: #ff7200;
+    font-size: 65px
+}
+/*form css*/
+.form{
+    width: auto;
+    height: auto;
+    background: #fff;
+	color:black;
+    position: absolute;
+    top: 100px;
+    margin-left: 55%;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+#rank{
+margin-top:20px;
+height:22px;
+}
+#radio{
+margin-top:20px;
+}
+#caste{
+	margin-top:20px;
+	height:23px;
+}
+#district{
+	margin-top:20px;
+	height:23px;
+}
+
+#button{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:black;
+    transition: 0.4s ease;
+}
+@media(max-width:991px){
+header{
+padding:20px;
+
+}
+header label{
+display:initial;
+}
+header .navbar{
+position:absolute;
+top:100%;
+left:0;
+right:0;
+background:#fff;
+border-top:1px solid rgba(0,0,0,.1);
+display:none;
+}
+header .navbar ul li{
+width:100%;
+}
+
+#menu-bar:checked ~ .navbar{
+display:initial;
+
+}
+
+.content .par{
+font-size:12pt;
+text-align:center;
+margin-right:10%;
+margin-top:5%;
+
+}
+.content h1{
+font-size:30pt;
+margin-left:30%;
+
+}
+
+.content span{
+font-size:30pt;
+
+}
+.form{
+position:absolute;
+font-size:20px;
+width: auto;
+height: auto;
+text-align:center;
+margin-left:22%;
+margin-top:75%;
+}
+
+}
+
+
+
+</style>
+</head>
+<body>
+
+ <header class="main-header clearfix" role="header">
+    <div class="logo">
+      <a href="#"><em>Way2</em>Predict</a>
+    </div>
+    <a href="#menu" class="menu-link"><i class="fa fa-bars "></i></a>
+    <nav id="menu" class="main-nav" role="navigation">
+      <ul class="main-menu">
+              <li><a href="ergcb1.html">Home</a></li>
+        <li class="has-submenu"><a target="_self" href="">colleges</a>
+          <ul class="sub-menu">
+            <li><a href="https://facilities.aicte-india.org/dashboard/pages/dashboardaicte.php">Dashboard</a></li>
+            <li><a href="enba.html">NBA(Accredited)</a></li>
+            <li><a href="autonomous.html">Autonomous Colleges</a></li>
+			<li><a href="https://facilities.aicte-india.org/dashboard/pages/faculties.php">Faculty</a></li>
+          </ul>
+        </li>
+		<li class="has-submenu"><a target="_self" href="">Prediction Type</a>
+          <ul class="sub-menu">
+         
+			<li><a href="ergcb1.html">Predict with All</a></li>
+          </ul>
+        </li>
+		<li><a href="feed.html">Feedback</a></li>
+      </ul>
+    </nav>
+  </header>
+        <div class="content">
+            <h1>College <br><span>Prediction</span> <br>System</h1>
+            <p class="par">"Life is a matter of choices, and every choice you make makes you". The application uses data mining
+and data analysis techniques. Rank, category, preferred branches, preferred district, and
+preferred colleges are taken as input and the preference list, on thorough analysis of the
+last years' cut-off data is generated.</p>
+  
+
+                <div class="form">
+				<form action="ergcd1.php" method="post">
+                    <h2>ENTER DETAILS</h2>
+                      RANK:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input id="rank" type="number" name="rank" placeholder="Enter Rank Here"><br/>
+		            GENDER:&nbsp&nbspMALE:<input id="radio" type="radio" name="gender" value="M">&nbsp &nbsp&nbsp&nbsp&nbsp
+					FEMALE:<input id="radio" type="radio" name="gender" value="F"><br/>
+					CASTE:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<select id="caste" name="caste">
+					           <option>--Select--</option>
+					           <option>OC</option>
+							   <option>BC_A</option>
+							   <option>BC_B</option>
+							   <option>BC_C</option>
+							   <option>BC_D</option>
+							   <option>BC_E</option>
+							   <option>SC</option>
+							   <option>ST</option>
+							   <option>OTHERS</option>
+							   </SELECT><br/><br/>
+				    DISTRICT:&nbsp&nbsp&nbsp<select id="district" name="district">
+								<option>All Districts</option>
+								<option>West Godavari</option>
+							    <option>East Godavari</option>
+								<option>KRISHNA</option>
+								<option>Chittoor</option>
+								<option>Vizianagaram</option>
+								<option>Anantapur</option>
+								<option>YSR Kadapa</option>
+								<option>Guntur</option>
+								<option>Nellore</option>
+								<option>kurnool</option>
+								<option>Srikakulam</option>
+								<option>Visakhapatnam</option>
+								<option>Prakasam</option>
+								</select><br/>
+                   <center><input id="button" className="btn-6" type="submit" name="predict" value="PREDICT"></input></a></center>
+
+               
+                </div> 
+				   
+                    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

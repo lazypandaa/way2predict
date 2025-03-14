@@ -1,0 +1,150 @@
+2023-09-13  4:42:24 0 [Note] Starting MariaDB 10.4.28-MariaDB source revision c8f2e9a5c0ac5905f28b050b7df5a9ffd914b7e7 as process 10288
+2023-09-13  4:42:24 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-09-13  4:42:24 0 [Note] InnoDB: Uses event mutexes
+2023-09-13  4:42:24 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-09-13  4:42:24 0 [Note] InnoDB: Number of pools: 1
+2023-09-13  4:42:24 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-09-13  4:42:24 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-09-13  4:42:24 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-09-13  4:42:24 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300288
+2023-09-13  4:42:24 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-09-13  4:42:24 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-09-13  4:42:24 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-09-13  4:42:24 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-09-13  4:42:24 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-09-13  4:42:24 0 [Note] InnoDB: Waiting for purge to start
+2023-09-13  4:42:25 0 [Note] InnoDB: 10.4.28 started; log sequence number 300297; transaction id 170
+2023-09-13  4:42:25 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-09-13  4:42:25 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-09-13  4:42:25 0 [Note] Server socket created on IP: '::'.
+2023-09-13  4:42:25 0 [Note] InnoDB: Buffer pool(s) load completed at 230913  4:42:25
+2023-09-13  4:43:13 0 [Note] Starting MariaDB 10.4.28-MariaDB source revision c8f2e9a5c0ac5905f28b050b7df5a9ffd914b7e7 as process 5936
+2023-09-13  4:43:13 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-09-13  4:43:13 0 [Note] InnoDB: Uses event mutexes
+2023-09-13  4:43:13 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-09-13  4:43:13 0 [Note] InnoDB: Number of pools: 1
+2023-09-13  4:43:13 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-09-13  4:43:13 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-09-13  4:43:13 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-09-13  4:43:13 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300306
+2023-09-13  4:43:13 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-09-13  4:43:13 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-09-13  4:43:13 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-09-13  4:43:13 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-09-13  4:43:13 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-09-13  4:43:13 0 [Note] InnoDB: Waiting for purge to start
+2023-09-13  4:43:14 0 [Note] InnoDB: 10.4.28 started; log sequence number 300315; transaction id 170
+2023-09-13  4:43:14 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-09-13  4:43:14 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-09-13  4:43:14 0 [Note] InnoDB: Buffer pool(s) load completed at 230913  4:43:14
+2023-09-13  4:43:14 0 [Note] Server socket created on IP: '::'.
+2023-09-13  4:43:14 0 [Note] Reading of all Master_info entries succeeded
+2023-09-13  4:43:14 0 [Note] Added new Master_info '' to hash table
+2023-09-13  4:43:14 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-09-13  4:43:14 0 [Note] C:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-09-13  4:43:14 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-09-13  4:43:14 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-09-13  4:43:14 0 [Note] InnoDB: Starting shutdown...
+2023-09-13  4:43:14 0 [Note] InnoDB: Dumping buffer pool(s) to C:\xampp\mysql\data\ib_buffer_pool
+2023-09-13  4:43:14 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2023-09-13  4:43:14 0 [Note] InnoDB: Buffer pool(s) dump completed at 230913  4:43:14
+2023-09-13  4:43:16 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-09-13  4:43:16 0 [Note] InnoDB: Shutdown completed; log sequence number 300333; transaction id 171
+2023-09-13  4:43:16 0 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2023-09-13  4:43:18 0 [Note] Starting MariaDB 10.4.28-MariaDB source revision c8f2e9a5c0ac5905f28b050b7df5a9ffd914b7e7 as process 7144
+2023-09-13  4:43:18 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-09-13  4:43:18 0 [Note] InnoDB: Uses event mutexes
+2023-09-13  4:43:18 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-09-13  4:43:18 0 [Note] InnoDB: Number of pools: 1
+2023-09-13  4:43:18 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-09-13  4:43:18 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-09-13  4:43:18 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-09-13  4:43:18 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-09-13  4:43:18 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-09-13  4:43:18 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-09-13  4:43:18 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-09-13  4:43:18 0 [Note] InnoDB: Waiting for purge to start
+2023-09-13  4:43:18 0 [Note] InnoDB: 10.4.28 started; log sequence number 300333; transaction id 170
+2023-09-13  4:43:18 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-09-13  4:43:18 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-09-13  4:43:18 0 [Note] Server socket created on IP: '::'.
+2023-09-13  4:43:18 0 [Note] InnoDB: Buffer pool(s) load completed at 230913  4:43:18
+2023-09-13  4:43:18 0 [Note] Reading of all Master_info entries succeeded
+2023-09-13  4:43:18 0 [Note] Added new Master_info '' to hash table
+2023-09-13  4:43:18 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2023-09-13  4:56:36 69 [Warning] Aborted connection 69 to db: 'collegedb' user: 'root' host: 'localhost' (Got a packet bigger than 'max_allowed_packet' bytes)
+2023-09-13  5:21:50 319 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  6:12:23 335 [Warning] Aborted connection 335 to db: 'unconnected' user: 'root' host: 'localhost' (Got a packet bigger than 'max_allowed_packet' bytes)
+2023-09-13  6:14:02 377 [Warning] Aborted connection 377 to db: 'collegedb' user: 'root' host: 'localhost' (Got a packet bigger than 'max_allowed_packet' bytes)
+2023-09-13  6:17:17 414 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  7:32:51 579 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  7:45:18 634 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  7:48:27 659 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  7:54:14 660 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  8:03:49 661 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  8:04:04 662 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  8:05:25 663 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  8:07:36 665 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  8:08:08 666 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  8:09:34 667 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  8:09:42 668 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  8:09:47 669 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  8:34:51 773 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  8:34:53 774 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  8:34:57 775 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  8:48:50 807 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:10:00 814 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:10:26 815 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:12:34 839 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:12:52 840 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:13:49 843 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:15:07 845 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:17:22 846 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:17:26 847 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:17:40 848 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:23:39 849 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:24:05 850 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:24:21 851 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:24:35 852 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:30:25 854 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:48:09 874 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:55:50 879 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13  9:58:24 881 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13 10:01:49 887 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13 10:02:02 888 [Warning] Access denied for user 'dcme'@'localhost' (using password: YES)
+2023-09-13 12:18:30 0 [Note] C:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-09-13 12:18:30 0 [Note] Event Scheduler: Purging the queue. 0 events
+2023-09-13 12:18:30 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-09-13 12:18:30 0 [Note] InnoDB: Starting shutdown...
+2023-09-13 12:18:30 0 [Note] InnoDB: Dumping buffer pool(s) to C:\xampp\mysql\data\ib_buffer_pool
+2023-09-13 12:18:30 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2023-09-13 12:18:30 0 [Note] InnoDB: Buffer pool(s) dump completed at 230913 12:18:30
+2023-09-13 12:18:31 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2023-09-13 12:18:31 0 [Note] InnoDB: Shutdown completed; log sequence number 7869941; transaction id 39408
+2023-09-13 12:18:31 0 [Note] C:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2023-09-13 12:50:41 0 [Note] Starting MariaDB 10.4.28-MariaDB source revision c8f2e9a5c0ac5905f28b050b7df5a9ffd914b7e7 as process 3216
+2023-09-13 12:50:41 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2023-09-13 12:50:41 0 [Note] InnoDB: Uses event mutexes
+2023-09-13 12:50:41 0 [Note] InnoDB: Compressed tables use zlib 1.2.12
+2023-09-13 12:50:41 0 [Note] InnoDB: Number of pools: 1
+2023-09-13 12:50:41 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2023-09-13 12:50:41 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2023-09-13 12:50:41 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-09-13 12:50:41 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2023-09-13 12:50:41 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-09-13 12:50:41 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-09-13 12:50:41 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2023-09-13 12:50:41 0 [Note] InnoDB: Waiting for purge to start
+2023-09-13 12:50:41 0 [Note] InnoDB: 10.4.28 started; log sequence number 7869941; transaction id 39409
+2023-09-13 12:50:41 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2023-09-13 12:50:41 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-09-13 12:50:42 0 [Note] Server socket created on IP: '::'.
+2023-09-13 12:50:42 0 [Note] InnoDB: Buffer pool(s) load completed at 230913 12:50:42
+2023-09-13 12:50:42 0 [Note] Reading of all Master_info entries succeeded
+2023-09-13 12:50:42 0 [Note] Added new Master_info '' to hash table
+2023-09-13 12:50:42 0 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.28-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
